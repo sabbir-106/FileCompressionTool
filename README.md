@@ -1,53 +1,52 @@
-# Project Title
+# Smart File Compression and Archive Manager
 
-## File Compression Tool
+## Project Progress Report (Week 1 - Week 3)
 
----
+## Project Title
+Smart File Compression and Archive Manager
 
-
-## Project Description
-Smart File Compression and Archive Manager is a Java-based desktop application designed to compress, decompress, and manage files efficiently. The system aims to reduce file storage size, improve file transfer efficiency, and provide users with an easy-to-use interface for handling compressed files.
-
-The project will implement standard compression techniques and gradually introduce advanced features such as compression analysis, file integrity checking, and custom compression algorithms.
+## Programming Language
+Java
 
 ---
 
-## Project Objectives
-- Develop a Java-based file compression application.
-- Reduce file size using compression techniques.
-- Provide an easy-to-use graphical user interface.
-- Support file and folder compression.
-- Analyze compression efficiency and storage savings.
-- Implement additional file management features.
+# Week 1: Requirement Analysis and System Design
+
+## Completed Tasks
+- Defined project objectives and scope.
+- Researched different file compression techniques and archive formats.
+- Identified functional and non-functional requirements.
+- Designed the initial system architecture.
+- Created basic UML diagrams and system workflow.
+
+## Deliverables
+- Project requirement document.
+- Use case diagram.
+- System architecture design.
+- Development roadmap.
+
+## Outcome
+A clear project structure and development plan were created for implementing the File Compression Tool.
 
 ---
 
-## Project Features
+# Week 2: User Interface Development
 
-### Basic Features
-- File and folder compression.
-- File decompression.
-- ZIP archive support.
-- File size comparison.
-- Compression progress tracking.
+## Completed Tasks
+- Developed the graphical user interface using Java Swing.
+- Designed the main application dashboard.
+- Added file and folder selection functionality.
+- Created compression and decompression controls.
+- Added status display and progress monitoring sections.
 
-### Advanced Features
-- Custom compression algorithms (Huffman Coding, RLE, LZW).
-- Password-protected archives.
-- File integrity verification.
-- Duplicate file detection.
-- Compression statistics and performance analysis.
+## Deliverables
+- GUI prototype.
+- User interaction design.
+- Application navigation structure.
 
----
+## Outcome
+A basic user-friendly interface was developed to allow users to interact with the compression system.
 
-## Tools and Technologies
 
-### Programming Language
-- Java
-
-### Development Tools
-- Java Swing / JavaFX
-- Java IO and NIO Libraries
-- ZIP Compression Libraries
-- Hashing Algorithms (MD5/SHA-256)
-
+## Current Status
+The project is progressing according to the planned schedule. The basic structure and core compression functionality have been completed, creating a strong foundation for implementing advanced features in the upcoming development phases.
