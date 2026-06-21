@@ -1,6 +1,6 @@
 # Smart File Compression and Archive Manager
 
-## Project Progress Report (Week 1 - Week 3)
+## Project Progress Report (Week 1 - Week 2)
 
 ## Project Title
 Smart File Compression and Archive Manager
