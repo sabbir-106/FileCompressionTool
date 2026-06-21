@@ -1,4 +1,4 @@
-# Smart File Compression and Archive Manager
+# File Compression and Tool
 
 ## Project Progress Report (Week 1 - Week 2)
 
