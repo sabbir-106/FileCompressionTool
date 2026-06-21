@@ -1,52 +1,99 @@
-# File Compression and Tool
+# Week 1 — Requirement Analysis & Project Design
 
-## Project Progress Report (Week 1 - Week 2)
+## Project Phase
+Requirement Analysis and System Design
 
-## Project Title
-Smart File Compression and Archive Manager
-
-## Programming Language
-Java
+## Objective
+To understand the core concepts of file compression and prepare the initial system structure, architecture, and design documents for the Java-based File Compression Tool.
 
 ---
 
-# Week 1: Requirement Analysis and System Design
+## Tasks Completed
 
-## Completed Tasks
-- Defined project objectives and scope.
-- Researched different file compression techniques and archive formats.
-- Identified functional and non-functional requirements.
-- Designed the initial system architecture.
-- Created basic UML diagrams and system workflow.
+### 1. Research on File Compression Concepts
 
-## Deliverables
-- Project requirement document.
-- Use case diagram.
-- System architecture design.
-- Development roadmap.
+Studied the fundamentals of file compression including:
 
-## Outcome
-A clear project structure and development plan were created for implementing the File Compression Tool.
+- Definition and purpose of file compression.
+- Difference between lossless and lossy compression techniques.
+- Basic working principles of ZIP compression.
+- Introduction to Huffman Coding algorithm used in data compression.
 
 ---
 
-# Week 2: User Interface Development
+## 2. Application Type Decision
 
-## Completed Tasks
-- Developed the graphical user interface using Java Swing.
-- Designed the main application dashboard.
-- Added file and folder selection functionality.
-- Created compression and decompression controls.
-- Added status display and progress monitoring sections.
+Selected application type:
 
-## Deliverables
-- GUI prototype.
-- User interaction design.
-- Application navigation structure.
+- **Java Desktop Application**
+- User Interface: **Java Swing / JavaFX**
 
-## Outcome
-A basic user-friendly interface was developed to allow users to interact with the compression system.
+Reason:
+A desktop application provides a simple interface where users can easily compress, decompress, and manage files locally.
+
+---
+
+## 3. System Architecture Planning
+
+Designed the initial architecture of the File Compression Tool.
+
+Main components:
+
+- User Interface Module
+- File Selection & Management Module
+- Compression Engine
+- Decompression Engine
+- File Analysis Module
+- Security & Verification Module
+
+---
+
+## 4. Design Artifacts Created
+
+Prepared the following system design documents:
+
+- Use Case Diagram
+- Flowchart
+- Class Diagram
+- Basic System Structure
+
+---
+
+## Planned Class Structure
+FileCompressionTool
+
+- Main.java
+- GUI.java
+- FileCompressor.java
+- FileDecompressor.java
+- CompressionAlgorithm.java
+- FileManager.java
+- CompressionStats.java
+- Utils.java
 
 
-## Current Status
-The project is progressing according to the planned schedule. The basic structure and core compression functionality have been completed, creating a strong foundation for implementing advanced features in the upcoming development phases.
+---
+
+## Development Environment Setup
+
+Tools selected:
+
+- JDK
+- IntelliJ IDEA / Eclipse / VS Code
+- GitHub Repository
+
+---
+
+## Week 1 Deliverables
+
+- Project scope finalized
+- Compression concepts researched
+- Application structure planned
+- UML diagrams prepared
+- Development environment configured
+
+---
+
+## Next Step
+
+Implement the basic file compression and decompression modules using Java.
