@@ -1,53 +1,107 @@
-# Project Title
+# File Compression Tool
 
-## File Compression Tool
+## Week 4 Progress Report
 
----
+## Project Overview
 
-
-## Project Description
-Smart File Compression and Archive Manager is a Java-based desktop application designed to compress, decompress, and manage files efficiently. The system aims to reduce file storage size, improve file transfer efficiency, and provide users with an easy-to-use interface for handling compressed files.
-
-The project will implement standard compression techniques and gradually introduce advanced features such as compression analysis, file integrity checking, and custom compression algorithms.
+File Compression Tool is a Java-based application that aims to compress and decompress files using different compression techniques. The project is developed as a learning project to understand file handling, compression algorithms, and GUI application development.
 
 ---
 
-## Project Objectives
-- Develop a Java-based file compression application.
-- Reduce file size using compression techniques.
-- Provide an easy-to-use graphical user interface.
-- Support file and folder compression.
-- Analyze compression efficiency and storage savings.
-- Implement additional file management features.
+# Week 4 Completed Tasks
+
+## 1. ZIP Decompression Module
+
+A ZIP decompression module was implemented using Java's built-in ZIP libraries.
+
+Implemented features:
+
+* ZIP file reading
+* File extraction
+* Folder extraction
+* Output folder selection
+* File handling during extraction
 
 ---
 
-## Project Features
+## 2. ZipDecompressor Class
 
-### Basic Features
-- File and folder compression.
-- File decompression.
-- ZIP archive support.
-- File size comparison.
-- Compression progress tracking.
+A new `ZipDecompressor.java` class was created inside the `Decompression` package.
 
-### Advanced Features
-- Custom compression algorithms (Huffman Coding, RLE, LZW).
-- Password-protected archives.
-- File integrity verification.
-- Duplicate file detection.
-- Compression statistics and performance analysis.
+The class is responsible for:
+
+* Opening ZIP files
+* Reading ZIP entries
+* Creating folders when required
+* Extracting files
+* Saving extracted files to the selected output folder
 
 ---
 
-## Tools and Technologies
+## 3. Decompression GUI Integration
 
-### Programming Language
-- Java
+The existing **Decompress** button in the GUI was connected with the new decompression module.
 
-### Development Tools
-- Java Swing / JavaFX
-- Java IO and NIO Libraries
-- ZIP Compression Libraries
-- Hashing Algorithms (MD5/SHA-256)
+The application now allows users to:
 
+1. Click the **Decompress** button.
+2. Select a `.zip` file.
+3. Select an output folder.
+4. Extract the files from the ZIP archive.
+
+---
+
+## 4. File Selection
+
+`JFileChooser` was implemented for easier file and folder selection.
+
+Users can now select:
+
+* ZIP files for decompression
+* Output folders for extracted files
+
+---
+
+## 5. Error Handling
+
+Basic error handling was added using `try-catch` and `IOException`.
+
+The application displays an error message if a problem occurs during the decompression process.
+
+---
+
+## 6. Testing
+
+The decompression functionality was tested using ZIP files created by the application's compression module.
+
+Basic workflow:
+
+```text
+Select File
+     ↓
+Compress
+     ↓
+Create ZIP File
+     ↓
+Decompress
+     ↓
+Select ZIP File
+     ↓
+Select Output Folder
+     ↓
+Extract Files
+```
+
+---
+
+## 7. Build Verification
+
+The project was successfully compiled and tested in Apache NetBeans.
+
+**Build Status: BUILD SUCCESS ✅**
+
+---
+
+# Week 4 Status
+
+**Completed ✅**
