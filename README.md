@@ -1,5 +1,3 @@
-# File Compression Tool
-
 ## Week 4 Progress Report
 
 ## Project Overview
@@ -69,34 +67,6 @@ Basic error handling was added using `try-catch` and `IOException`.
 The application displays an error message if a problem occurs during the decompression process.
 
 ---
-
-## 6. Testing
-
-The decompression functionality was tested using ZIP files created by the application's compression module.
-
-Basic workflow:
-
-```text
-Select File
-     ↓
-Compress
-     ↓
-Create ZIP File
-     ↓
-Decompress
-     ↓
-Select ZIP File
-     ↓
-Select Output Folder
-     ↓
-Extract Files
-```
-
----
-
-## 7. Build Verification
-
-The project was successfully compiled and tested in Apache NetBeans.
 
 **Build Status: BUILD SUCCESS ✅**
 
