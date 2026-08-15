@@ -60,13 +60,6 @@ Users can now select:
 
 ---
 
-## 5. Error Handling
-
-Basic error handling was added using `try-catch` and `IOException`.
-
-The application displays an error message if a problem occurs during the decompression process.
-
----
 
 **Build Status: BUILD SUCCESS ✅**
 
