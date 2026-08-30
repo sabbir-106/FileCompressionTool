@@ -1,34 +1,79 @@
-File Compression Tool
+# File Compression Tool
 
-Week 5 Progress Report
+## Week 5 Progress Report
 
-Week 5 — Huffman Coding
+### Project Overview
 
-Completed:
+File Compression Tool is a Java-based application designed to compress and decompress files using different compression techniques. The project is being developed using Java and Apache NetBeans.
 
-Created Huffman package.
+---
 
-Implemented HuffmanNode.java.
+## Week 5: Huffman Coding Compression
 
-Created HuffmanCompressor.java.
+### Objectives
 
-Implemented byte frequency counting.
+- Implement Huffman Coding compression.
+- Create the Huffman Tree.
+- Generate Huffman codes.
+- Count the frequency of bytes in a file.
+- Test Huffman compression separately before connecting it to the GUI.
 
-Implemented Priority Queue and Huffman Tree.
+---
 
-Implemented Huffman code generation.
+## Work Completed
 
-Started testing Huffman compression.
+### 1. Huffman Package
 
+A new `Huffman` package was created to organize the Huffman Coding related classes.
 
-Current Status
+### 2. HuffmanNode Class
 
-🔄 Huffman compression testing is in progress.
+Created `HuffmanNode.java` to represent nodes of the Huffman Tree.
 
-Next Steps
+The class contains:
 
-Complete testing.
+- Byte data
+- Frequency
+- Left child
+- Right child
+- Leaf node checking
 
-Connect Huffman compression with the GUI.
+### 3. HuffmanCompressor Class
 
-Implement Huffman decompression.
+Created `HuffmanCompressor.java` to implement the Huffman compression algorithm.
+
+The compressor includes:
+
+- Byte frequency counting
+- Priority Queue
+- Huffman Tree construction
+- Huffman code generation
+- Binary data encoding
+- Compressed file creation
+
+### 4. Huffman Testing
+
+Created `HuffmanTest.java` to test the Huffman compression module separately before integrating it with the main GUI.
+
+---
+
+## Current Project Structure
+
+```text
+FileCompressionTool
+│
+├── Compression
+│   └── ZipCompressor.java
+│
+├── Decompression
+│   └── ZipDecompressor.java
+│
+├── GUI
+│   └── MainFrame.java
+│
+├── Huffman
+│   ├── HuffmanNode.java
+│   ├── HuffmanCompressor.java
+│   └── HuffmanTest.java
+│
+└── Utils
