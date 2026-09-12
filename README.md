@@ -1,53 +1,57 @@
-# Project Title
+## Development Timeline
 
-## File Compression Tool
+### Week 7 – Security Features and File Verification
 
----
+In Week 7, a file verification feature was added to improve the reliability and integrity of compressed files. The system can check whether a ZIP file is valid and can be opened properly.
 
+### Work Completed
 
-## Project Description
-Smart File Compression and Archive Manager is a Java-based desktop application designed to compress, decompress, and manage files efficiently. The system aims to reduce file storage size, improve file transfer efficiency, and provide users with an easy-to-use interface for handling compressed files.
+- Added a `FileVerifier` utility class.
+- Implemented ZIP file verification using Java's `ZipFile` class.
+- Added a **Verify File** button to the graphical user interface.
+- Implemented valid ZIP file checking.
+- Implemented corrupted or invalid ZIP file detection.
+- Added user-friendly messages for verification results.
+- Tested the verification feature with both valid and corrupted ZIP files.
 
-The project will implement standard compression techniques and gradually introduce advanced features such as compression analysis, file integrity checking, and custom compression algorithms.
+### File Verification
 
----
+The `FileVerifier` class checks whether a selected ZIP file can be opened successfully.
 
-## Project Objectives
-- Develop a Java-based file compression application.
-- Reduce file size using compression techniques.
-- Provide an easy-to-use graphical user interface.
-- Support file and folder compression.
-- Analyze compression efficiency and storage savings.
-- Implement additional file management features.
+If the ZIP file is valid, the system displays:
 
----
+> File is valid and can be opened.
 
-## Project Features
+If the ZIP file is corrupted or invalid, the system displays:
 
-### Basic Features
-- File and folder compression.
-- File decompression.
-- ZIP archive support.
-- File size comparison.
-- Compression progress tracking.
+> File is corrupted or invalid.
 
-### Advanced Features
-- Custom compression algorithms (Huffman Coding, RLE, LZW).
-- Password-protected archives.
-- File integrity verification.
-- Duplicate file detection.
-- Compression statistics and performance analysis.
+### Technologies Used
 
----
-
-## Tools and Technologies
-
-### Programming Language
 - Java
+- Apache NetBeans
+- Java Swing
+- `java.util.zip.ZipFile`
 
-### Development Tools
-- Java Swing / JavaFX
-- Java IO and NIO Libraries
-- ZIP Compression Libraries
-- Hashing Algorithms (MD5/SHA-256)
+### Week 7 Testing
 
+| Test Case | Input | Expected Result | Status |
+|-----------|-------|-----------------|--------|
+| Valid ZIP | Valid `.zip` file | File is valid and can be opened | Passed |
+| Invalid ZIP | Corrupted `.zip` file | File is corrupted or invalid | Passed |
+
+### Week 7 Outcome
+
+The file verification feature was successfully implemented and tested. The application can now identify valid ZIP files and detect corrupted or invalid ZIP files, improving the reliability and integrity of the compression tool.
+
+---
+
+## Current Project Features
+
+- Graphical User Interface
+- ZIP Compression
+- ZIP Decompression
+- Huffman Coding Compression
+- RLE Compression
+- File Verification
+- Corrupted ZIP Detection
